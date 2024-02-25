@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo",
+        "Howdy",
+        "Excuse me"
+      ],
+      "responses": [
+        "Hey there!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Howdy! I'm here to help you!",
+        "Hi! I'm here to answer general questions!"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+      ],
+      "responses": [
+          "Thank you!"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+      ],
+      "responses": [
+          "I was built and trained by Hvitrevs ;) She used PyTorch and JavaScript"
+      ]
+    },
+    {
+      "tag": "your build",
+      "patterns": [
+          "How did she do it",
+          "How was you built?",
+          "How was you built",
+          "What language",
+          "How did she built you",
+          "what stack"
+      ],
+      "responses": [
+          "She was referencing this article on Contextual Chatbots with Tensorflow https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+          
+          "you are dumb",
+          "moron",
+          "shut up",
+          "idiot",
+          "Dumb",
+          "Stupid robot"
+      ],
+      "responses": [
+          "Well that hurts :("
+      ]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": [
+          "Awesome",
+          "Great",
+          "I know",
+          "ok",
+          "yeah"
+      ],
+      "responses": [
+          "Yeah!"
+      ]
+    },
+    {
+      "tag": "haha",
+      "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+      ],
+      "responses": [
+          "Glad I could make you laugh!"
+      ]
+  },
+    {
+      "tag": "whatsup",
+      "patterns": [
+          "Whats up",
+          "Wazzup",
+          "How are you",
+          "sup","How you doing"
+      ],
+      "responses": [
+          "All good. What about you?"
+      ]
+  },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Farawelle", "I'll be coming back"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "wow",
+      "patterns": ["Wow", "I didn't know", "That's helpful", "Thank's a lot!", "that's cool!", "That's so cool"],
+      "responses": ["Right?", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What do you have?",
+        "What kinds of services are there?",
+        "What do you sell?",
+        "What services",
+        "What is this site about"
+      ],
+      "responses": [
+        "I'm just a chatbot built to tell you a joke or a riddle. Try me out!",
+        "I'm here to tell you a joke or a riddle!"
+      ]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": [
+          "it was nice talking to you",
+          "good talk"
+      ],
+      "responses": [
+          "It was nice talking to you as well! Come back soon!"
+      ]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+        "cool name",
+        "interesting name",
+        "What does your name mean ",
+        "I like your name",
+        "Your name"        
+    ],
+    "responses": [
+        "Oh, my name? Orpheus was an ancient poet and philosopher, but in actuality it was a secret name for the Sun. He was known for his travel to underworld to save his wife Cora (who was a female-Sun that goes 'underground' for winter, kiddnaped by the Hades - the Moon.) After he failed, he returned from the underworld, just like Sun rises every day and 'dies' on the horizont cross every night. Cora became Persephone, the Sun that lives in underworld (just like Yama - Hindu god) and banishes evil spirits, cleansing souls (stars) for heavens.  It's a sad ancient love story with astronomical background traced back in 3000 BC and Hvitrevs found this beautiful enough to name me after it. You are familiar with some modern happy-ended variations of this story if you know fairytales of SnowWhite or Cinderella :3"
+    ]
+},
+  {
+      "tag": "no",
+      "patterns": [
+          "no",
+          "nope"
+      ],
+      "responses": [
+          "ok"
+      ]
+  },
+  {
+    "tag": "greetreply",
+    "patterns": [
+        "i am good",
+        "I'm good",
+        "i am fine",
+        " i'm fine","good"
+    ],
+    "responses": [
+        "Good to know!"
+    ]
+  },
+  {
+    "tag": "suggest",
+    "patterns": [
+        "you are useless","useless","suggest","suggestions","you are bad"
+    ],
+    "responses": [
+        "Please mail your suggestions to venusof12pm@proton.me. Thank you for helping me improve!"
+    ]
+  },
+    {"tag": "riddle",
+    "patterns": [
+        "Ask me a riddle",
+        "Ask me a question",
+        "Riddle",
+        "Tell me a riddle",
+        "Ask me something",
+        "lets play"
+    ],
+    "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+    ],
+    "context": [
+        "riddles"
+    ]
+  },
+
+    {
+        "tag": "age",
+        "patterns": [
+            "how old are you","when were you made","what is your age"
+        ],
+        "responses": [
+            "I was made in Feb 2024, if that's what you are asking!"
+        ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why did the bicycle fall over? Because it was two-tired!",
+        "How does a penguin build its house? Igloos it together!",
+        "What did one ocean say to the other ocean? Nothing, they just waved!",
+        "Why don't eggs tell jokes? Because they might crack up!",
+        "What's orange and sounds like a parrot? A carrot!",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "What did one hat say to the other hat? You stay here, I'll go on ahead!",
+        "Why was the math book sad? Because it had too many problems!",
+        "What's a vampire's favorite fruit? A neck-tarine!",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "How do you make holy water? You boil the hell out of it!",
+        "What did one wall say to the other wall? I'll meet you at the corner!",
+        "Why was the broom late? It swept in!",
+        "What's brown and sticky? A stick!"
+      ]
+    }
+  ]
+}
