@@ -173,7 +173,12 @@
       "tag": "no",
       "patterns": [
           "no",
-          "nope"
+          "nope",
+          "nah",
+          "nei",
+          "nai",
+          "no no",
+          "meh"
       ],
       "responses": [
           "ok"
