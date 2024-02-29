@@ -1,8 +1,6 @@
-import random
 import json
-
+import random
 import torch
-
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -26,14 +24,9 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Orpheus"
-print("Welcome to the chat! (type 'quit' to exit)")
-while True:
-    # sentence = "do you accept credit cards?"
-    sentence = input("You: ")
-    if sentence == "quit":
-        break
 
-    sentence = tokenize(sentence)
+def get_response(user_input):
+    sentence = tokenize(user_input)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X).to(device)
@@ -48,6 +41,6 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                return random.choice(intent['responses'])
     else:
-        print(f"{bot_name}: I'm not sure I understand. Please, paraphrase...")
+        return "I'm not sure I understand. Please, paraphrase..."
