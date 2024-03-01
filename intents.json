@@ -6,17 +6,20 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
         "Good day",
         "Yo",
         "Howdy",
-        "Excuse me"
+        "Excuse me",
+        "How are you?",
+        "How are you",
+        "how are you",
+        "how are you?"
       ],
       "responses": [
         "Hey there!",
-        "Hello, thanks for visiting",
+        "Hello, thanks for visiting, how can I help?",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?",
         "Howdy! I'm here to help you!",
@@ -33,6 +36,22 @@
       ],
       "responses": [
           "Thank you!"
+      ]
+    },
+    {
+      "tag": "life",
+      "patterns": [
+          "How is life?",
+          "How's life",
+          "how is life",
+          "How are you doing?",
+          "how are you doing"
+      ],
+      "responses": [
+          "I'm doing great, thank you!",
+        "Everything is amazing, how can I help?",
+        "Good-good!",
+        "Cool! What can I do for you?"
       ]
     },
     {
@@ -190,7 +209,8 @@
         "i am good",
         "I'm good",
         "i am fine",
-        " i'm fine","good"
+        " i'm fine",
+        "good"
     ],
     "responses": [
         "Good to know!"
