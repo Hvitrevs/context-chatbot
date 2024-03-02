@@ -45,7 +45,7 @@ class Chatbox {
       const msg1 = { name: "User", message: text };
       this.messages.push(msg1);
 
-      fetch('http://127.0.0.1:5000/predict', {
+      fetch('zesty-sunflower-bc822b.netlify.app/predict', {
           method: 'POST',
           body: JSON.stringify({ message: text }),
           headers: {
